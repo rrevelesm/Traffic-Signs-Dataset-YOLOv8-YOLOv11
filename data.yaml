@@ -1,0 +1,35 @@
+# Traffic Signs Dataset Configuration
+# For YOLOv8-YOLOv11 Benchmarking Research
+# Source: Roboflow workspace (fira-gpeby/signals-ocroa)
+
+path: .
+train: train/images
+val: valid/images
+test: test/images
+
+# Number of classes
+nc: 6
+
+# Class names
+names:
+  0: left_turn
+  1: right_turn
+  2: forward
+  3: stop
+  4: dead_end
+  5: no_entry
+
+# Dataset information
+roboflow:
+  workspace: fira-gpeby
+  project: signals-ocroa
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/fira-gpeby/signals-ocroa/1
+
+# Statistics
+dataset_stats:
+  train_images: 4200
+  valid_images: 1200
+  test_images: 600
+  total_images: 6000
