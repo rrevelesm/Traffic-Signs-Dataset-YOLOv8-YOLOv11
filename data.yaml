@@ -10,14 +10,14 @@ test: test/images
 # Number of classes
 nc: 6
 
-# Class names
+# Class names (as defined in the article)
 names:
   0: left_turn
-  1: right_turn
-  2: forward
-  3: stop
-  4: dead_end
-  5: no_entry
+  1: straight_ahead
+  2: right_turn
+  3: dead_end
+  4: no_entry
+  5: stop
 
 # Dataset information
 roboflow:

@@ -6,14 +6,16 @@ This dataset contains images of traffic signs captured in a FIRA-based urban sim
 
 ### 🚦 Traffic Signs Classes (6 total)
 
+**⚠️ IMPORTANT: Class IDs match the order defined in the research article**
+
 | Class ID | Sign Name | Description | Emoji |
 |----------|-----------|-------------|-------|
 | 0 | Left Turn | Turn left signal | 🔄 |
-| 1 | Right Turn | Turn right signal | 🔃 |
-| 2 | Forward | Go straight signal | ⬆️ |
-| 3 | Stop | Stop sign | 🛑 |
-| 4 | Dead End | Dead end / No through road | 🚫 |
-| 5 | No Entry | Do not enter | ⛔ |
+| 1 | Straight Ahead | Go straight signal | ⬆️ |
+| 2 | Right Turn | Turn right signal | 🔃 |
+| 3 | Dead End | Dead end / No through road | 🚫 |
+| 4 | No Entry | Do not enter | ⛔ |
+| 5 | Stop | Stop sign | 🛑 |
 
 ### 📊 Dataset Statistics
 
@@ -69,9 +71,9 @@ Where:
 
 Example:
 ```
-3 0.512 0.345 0.156 0.234
+5 0.512 0.345 0.156 0.234
 ```
-(Stop sign at center (0.512, 0.345) with size 0.156×0.234)
+(Stop sign [class 5] at center (0.512, 0.345) with size 0.156×0.234)
 
 ### 🎥 Data Acquisition
 
@@ -94,14 +96,14 @@ train: train/images
 val: valid/images
 test: test/images
 
-# Classes
+# Classes (as defined in the article)
 names:
   0: left_turn
-  1: right_turn
-  2: forward
-  3: stop
-  4: dead_end
-  5: no_entry
+  1: straight_ahead
+  2: right_turn
+  3: dead_end
+  4: no_entry
+  5: stop
 ```
 
 ### 🚀 Usage

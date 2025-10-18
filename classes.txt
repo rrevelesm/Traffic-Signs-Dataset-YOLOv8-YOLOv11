@@ -1,6 +1,6 @@
 left_turn
+straight_ahead
 right_turn
-forward
-stop
 dead_end
 no_entry
+stop
