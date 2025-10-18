@@ -177,9 +177,9 @@ This dataset is released under [LICENSE TO BE SPECIFIED - suggest CC BY 4.0].
 ### 🙏 Acknowledgments
 
 This work was supported by:
+- Secretaría de Investigación y Posgrado (SIP-IPN)
 - Instituto Politécnico Nacional (IPN)
 - Universidad Autónoma de Zacatecas (UAZ)
-- Universidad Politécnica de Zacatecas
 
 ### 📧 Contact
 
